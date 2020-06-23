@@ -1,0 +1,54 @@
+body{
+	background: #f1f1f1;
+}
+
+.navbar-section img  {
+	width:25px; 
+
+}
+.bg-light {
+    background-color: #F8BBD0 !important;
+}
+
+.Gallery h3{
+	text-align: center;
+	padding: 30px;
+	color: purple;
+
+}
+.Gallery img{
+	width: 100%;
+
+}
+.carousal-section{
+	width: 90%;
+	padding-left: 10%;
+	padding-top: 30px;
+
+}
+.Gallery button{
+	margin-top: 30px;
+
+}
+.form{
+	margin:70px;
+	width: 50%;
+}
+.membership form title{
+	text-align: center;
+	color: silver;
+	margin:60px;
+}
+.Discounted-items{
+	width: 100%;
+
+}
+.Discounted-items img{
+	width: 35%;
+	text-align: right;
+
+}
+.Discounted-items table{
+	width: 90%;
+	margin: 0 auto;
+}

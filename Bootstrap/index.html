@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>foodGallery</title>
+
+
+
+    
+  </head>
+
+
+  <body>
+
+<!-- table with rows -->
+  <section class="navbar-section">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+       <div class ="container"> 
+      <a class="navbar-brand" href="#"><img src="images/LOGO.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Menu<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Prices</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">location</a>
+          </li>
+         
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Contacts</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Order Type
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Home Delivery</a>
+              <a class="dropdown-item" href="#">Reservation</a>
+              <a class="dropdown-item" href="#">one</a>
+              <a class="dropdown-item" href="#">two</a>
+              <a class="dropdown-item" href="#">three</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+   
+    </div>
+    </nav>
+        
+   
+</section>
+
+  
+<!-- carousal item interval -->
+
+<section class="carousal-section">
+   <div class="container">
+        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="10000">
+              <img src="images/Blueberry_CheeseCake.jpg" class="d-block w-100" alt="Blueberry CheeseCake">
+            </div>
+            <div class="carousel-item" data-interval="2000">
+              <img src="images/BrownieCake_StrawberryMousse.jpg" class="d-block w-100" alt="BrownieCake StrawberryMousse">
+            </div>
+            <div class="carousel-item">
+              <img src="images/chocolate_cake_brownie.jpg" class="d-block w-100" alt="chocolate cake brownie">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+     
+   </div> 
+
+</section> 
+<!-- Gallery section -->
+<section class="Gallery">
+  <div class="container">
+      <h3>Food gallery</h3>
+      <div class="row">
+        <div class="col">
+            <img src="images/donut.jpg"  alt="donut">
+            <button type="button" class="btn btn-success">Order now</button>
+          
+        </div>
+        <div class="col">
+            <img src="images/coffee.jpg" alt="coffee">
+            <button type="button" class="btn btn-success">Order now</button>
+        </div>
+        <div class="col">
+            <img src="images/hot-chocolate.jpg"  alt="hot-chocolate">
+            <button type="button" class="btn btn-success">Order now</button>
+        </div>
+      </div>
+    
+  </div>
+</section>
+<!-- form -->
+<section class="membership form title">
+  <h1>Membership form</h1>
+</section>
+<section class="form">
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</section>
+<!-- Discounted items -->
+<section class="Discounted-items">
+<table class="table table-hover table-dark">
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Previous Price</th>
+      <th>Discount</th>
+      <th>New Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th><img src="images/donut.jpg"  alt="donut"></th>
+      <td>Tk 350(Including Vat)</td>
+      <td>15%</td>
+      <td>Tk 52.5(Including Vat)</td>
+    </tr>
+    <tr>
+      <th ><img src="images/coffeeDrink.jpg"  alt="Coffee Drink"></th>
+      <td>Tk400(Including Vat)</td>
+      <td>15%</td>
+      <td>340(Including Vat)</td>
+    </tr>
+    <tr>
+      <th><img src="images/cupcake.jpg"  alt="cupcake"></th>
+      <td>Tk200(Including Vat)</td>
+      <td>Tk15%</td>
+      <td>Tk170(Including Vat)</td>
+      
+    </tr>
+  </tbody>
+</table>
+<!-- about us start -->
+<section class= "About-us">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>Some text about who we are and what we do.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/person2.jpg" alt="Catherine Albert" style="width:100%">
+      <div class="container">
+        <h2>Catherine Albert</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>jane@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/picture3.jpg" alt="Sam" style="width:100%">
+      <div class="container">
+        <h2></h2>Micheal Sam
+        <p class="title">Managing Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mike@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="images/person1.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>John Dsouza</h2>
+        <p class="title"> Cheif Executive Chef</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+    <!-- about us end -->
+
+
+    <!-- rating starts here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.checked {
+  color: orange;
+}
+</style>
+</head>
+<body>
+
+<h2>Star Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+    <!-- rating ends here -->
+    
+    <!-- javacript my code -->
+    <script>
+function light(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "pic_bulboff.gif"
+  } else {
+    pic = "pic_bulbon.gif"
+  }
+  document.getElementById('myImage').src = pic;
+}
+</script>
+​
+<img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+​
+
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="images/smiley.jpg" alt="Smiley" width="50" height="50">
+
+<p>Thank you for trying out food gallery </p>
+
+<script>
+function bigImg(x) {
+  x.style.height = "64px";
+  x.style.width = "64px";
+}
+
+function normalImg(x) {
+  x.style.height = "32px";
+  x.style.width = "32px";
+}
+</script>
+<!-- mouse over me -->
+<p>This example uses the addEventListener() method to attach a "mouseover" and "mouseout" event to a h1 element.</p>
+
+<h1 id="demo">Mouse over me</h1>
+
+<script>
+document.getElementById("demo").addEventListener("mouseover", mouseOver);
+document.getElementById("demo").addEventListener("mouseout", mouseOut);
+
+function mouseOver() {
+  document.getElementById("demo").style.color = "red";
+}
+
+function mouseOut() {
+  document.getElementById("demo").style.color = "pink";
+}
+</script>
+
+
+
+
+    <!-- javascript my code ends -->
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js"></script>
+
+</body>
+</html>
